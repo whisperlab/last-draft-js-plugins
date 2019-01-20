@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import insertDataBlock from './insertDataBlock'
-import Picker from 'draft-js-gif-picker-plugin'
+import Picker from '@whisperlab/draft-js-gif-picker-plugin'
 
 export default class extends Component {
   addGif (gif) {

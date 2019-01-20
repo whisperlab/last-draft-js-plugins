@@ -4,7 +4,7 @@ import {
   EmojiModal,
   GifModal,
   LinkModal
-} from 'draft-js-modal-plugin'
+} from '@whisperlab/draft-js-modal-plugin'
 
 const getModalByType = (type) => {
   if (type === 'color') { return ColorModal }

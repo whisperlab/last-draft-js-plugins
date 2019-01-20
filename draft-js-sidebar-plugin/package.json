@@ -1,6 +1,6 @@
 {
   "name": "@whisperlab/last-draft-js-sidebar-plugin",
-  "version": "1.2.11",
+  "version": "1.2.12",
   "description": "LastDraft Sidebar Plugin for DraftJS",
   "repository": {
     "type": "git",

@@ -1,12 +1,12 @@
 {
   "name": "@whisperlab/draft-js-embed-plugin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "LastDraft embed Plugin for DraftJS",
   "repository": {
     "type": "git",
     "url": "https://github.com/whisperlab/last-draft-js-plugins.git"
   },
-  "main": "lib/index.js",
+  "main": "lib/index.umd.js",
   "keywords": [
     "editor",
     "wysiwyg",

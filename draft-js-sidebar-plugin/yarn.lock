@@ -7,10 +7,10 @@
   resolved "https://registry.npmjs.org/@whisperlab/draft-js-gif-picker-plugin/-/draft-js-gif-picker-plugin-1.2.1.tgz#640d4ed0ba11110dee7f33d65ccf7d7466bc1f05"
   integrity sha512-iBIwTpXAnMLKUHuVjUTZO2w+eQA7l7Bhg2faqIF7flPDoMtEU6PiYr9zQP5KY1ueDyAtRFBebKm8nOjdLTqhaA==
 
-"@whisperlab/draft-js-modal-plugin@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/@whisperlab/draft-js-modal-plugin/-/draft-js-modal-plugin-1.2.0.tgz#77d711077cc2edb13b59f7fe98ccd4bd8a87cb65"
-  integrity sha512-6LW0MywMvU1PAdBuHE7OvFqnLBB1j8FyNDAweANghngSBDa0ngqYv0HsaszJl//2ZugMcAAJ2DRStTQTsEQO3Q==
+"@whisperlab/draft-js-modal-plugin@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-modal-plugin/-/draft-js-modal-plugin-1.2.1.tgz#88a618a4134bd304d5386b471af93586ed5c51fd"
+  integrity sha512-vHHvlcv8fvib+c57PNN2TJVtyYbeaAO0DaWXC3yGFJ79Qb2ZW/UC3z/S9krpXIXPI5+451ah5KedZ92zFgm7eA==
   dependencies:
     "@whisperlab/draft-js-gif-picker-plugin" "1.2.1"
     draft-js-color-picker-plugin "1.2.0"

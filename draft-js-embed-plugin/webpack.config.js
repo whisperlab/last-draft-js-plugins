@@ -4,7 +4,13 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   entry: './src/index.js',
-  output: { filename: './lib/bundle.js' },
+  output: {
+    path: __dirname + '/lib',
+    filename: 'index.umd.js',
+    library: 'draft-js-embed-plugin',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
+  },
   module: {
     rules: [
       {
@@ -19,6 +25,11 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin("./lib/plugin.css"),
-  ]
+    new ExtractTextPlugin("./plugin.css"),
+  ],
+  externals: {
+    'draft-js': 'draft-js',
+    react: 'react',
+    'react-dom': 'react-dom'
+  }
 }

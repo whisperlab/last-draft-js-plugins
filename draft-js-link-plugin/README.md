@@ -5,15 +5,15 @@
 ## Usage
 
 ```js
-import createLinkPlugin from 'draft-js-link-plugin'
-import 'draft-js-link-plugin/lib/plugin.css'
+import createLinkPlugin from '@whisperlab/draft-js-link-plugin'
+import '@whisperlab/draft-js-link-plugin/lib/plugin.css'
 const linkPlugin = createLinkPlugin()
 ```
 
 ## Importing the default styles
 
 The plugin ships with a default styling available at this location in the installed package:
-`node_modules/draft-js-link-plugin/lib/plugin.css`.
+`node_modules/@whisperlab/draft-js-link-plugin/lib/plugin.css`.
 
 ### Webpack Usage
 Follow the steps below to import the css file by using Webpack's `style-loader` and `css-loader`.
@@ -35,6 +35,6 @@ Follow the steps below to import the css file by using Webpack's `style-loader` 
 3. Add the below import line to your component to tell Webpack to inject the styles.
 
     ```js
-    import 'draft-js-link-plugin/lib/plugin.css';
+    import '@whisperlab/draft-js-link-plugin/lib/plugin.css';
     ```
 4. Restart Webpack.

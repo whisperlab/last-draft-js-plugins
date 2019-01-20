@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-buttons-plugin",
+  "name": "@whisperlab/draft-js-buttons-plugin",
   "version": "1.2.0",
   "description": "LastDraft buttons for DraftJS",
   "repository": {

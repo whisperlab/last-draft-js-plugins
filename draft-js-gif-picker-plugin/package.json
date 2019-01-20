@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-gif-picker-plugin",
+  "name": "@whisperlab/draft-js-gif-picker-plugin",
   "version": "1.2.0",
   "description": "LastDraft Gif picker Plugin for DraftJS",
   "repository": {

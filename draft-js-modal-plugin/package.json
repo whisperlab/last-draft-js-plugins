@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-modal-plugin",
+  "name": "@whisperlab/draft-js-modal-plugin",
   "version": "1.2.0",
   "description": "LastDraft modals for DraftJS",
   "repository": {

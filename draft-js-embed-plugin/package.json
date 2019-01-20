@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-embed-plugin",
+  "name": "@whisperlab/draft-js-embed-plugin",
   "version": "1.2.0",
   "description": "LastDraft embed Plugin for DraftJS",
   "repository": {

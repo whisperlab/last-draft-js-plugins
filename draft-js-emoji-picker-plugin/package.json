@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-emoji-picker-plugin",
+  "name": "@whisperlab/draft-js-emoji-picker-plugin",
   "version": "1.2.0",
   "description": "LastDraft emoji picker Plugin for DraftJS",
   "repository": {

@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-color-picker-plugin",
+  "name": "@whisperlab/draft-js-color-picker-plugin",
   "version": "1.2.0",
   "description": "LastDraft Color picker Plugin for DraftJS",
   "repository": {

@@ -1,5 +1,5 @@
 {
-  "name": "last-draft-js-plugins",
+  "name": "@whisperlab/last-draft-js-plugins",
   "version": "1.2.0",
   "description": "Last Draft draft-js-plugins",
   "scripts": {

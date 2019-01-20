@@ -79,7 +79,7 @@ export default class extends Component {
     const {gifs} = this.state
     const {visible, theme} = this.props
     return (
-      <div className={theme.gifPickerStyles.wrapper} visible={visible}>
+      <div className={theme.gifPickerStyles.wrapper} visible={`${visible}`}>
         <div
           className={theme.gifPickerStyles.closeWrapper}
           onClick={this.props.closeModal}

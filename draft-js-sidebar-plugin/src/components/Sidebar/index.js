@@ -28,7 +28,7 @@ export default class Sidebar extends React.Component {
     setTimeout(() => {
       const node = document.querySelectorAll(`[data-offset-key="${offsetKey}"]`)[0]
       const top = node.getBoundingClientRect().top
-      const editor = this.props.store.getItem('getEditorRef')().refs.editor
+      const editor = this.props.store.getItem('getEditorRef')().editor
       this.setState({
         position: {
           top: (top + window.scrollY),

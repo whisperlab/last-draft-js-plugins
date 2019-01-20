@@ -29,10 +29,12 @@ export default class Sidebar extends React.Component {
       const node = document.querySelectorAll(`[data-offset-key="${offsetKey}"]`)[0]
       const top = node.getBoundingClientRect().top
       const editor = this.props.store.getItem('getEditorRef')().editor
+      const parent = editor.parentNode
+      const parentRect = parent.getBoundingClientRect()
       this.setState({
         position: {
-          top: (top + window.scrollY),
-          left: editor.getBoundingClientRect().left - 25,
+          top: top - parentRect.top,
+          left: editor.getBoundingClientRect().left - 25 - parentRect.left,
           transform: 'scale(1)',
           transition: 'transform 0.15s cubic-bezier(.3,1.2,.2,1)'
         }

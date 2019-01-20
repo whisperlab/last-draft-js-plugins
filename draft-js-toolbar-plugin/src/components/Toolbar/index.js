@@ -23,8 +23,10 @@ export default class Toolbar extends React.Component {
 
     if (selectionRect === undefined || selectionRect === null) { return }
     console.log(selectionRect)
-    const top = (selectionRect.top === undefined) ? 0 : (selectionRect.top + window.scrollY) - toolbarHeightOffset
-    const left = (selectionRect.left === undefined) ? 0 : selectionRect.left + window.scrollX + (selectionRect.width / 2)
+    const parent = this.container.parentNode
+    const parentRect = parent.getBoundingClientRect()
+    const top = (selectionRect.top === undefined) ? 0 : (selectionRect.top - parentRect.top) - toolbarHeightOffset
+    const left = (selectionRect.left === undefined) ? 0 : selectionRect.left - parentRect.left + (selectionRect.width / 2)
     const position = { top, left }
     this.setState({position})
   }
@@ -61,6 +63,7 @@ export default class Toolbar extends React.Component {
       <div
         className={theme.toolbarStyles.toolbar}
         style={toolbarStyle}
+        ref={ref => this.container = ref}
       >
         {
           modalVisible &&

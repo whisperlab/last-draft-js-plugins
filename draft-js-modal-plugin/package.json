@@ -1,6 +1,6 @@
 {
   "name": "@whisperlab/draft-js-modal-plugin",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "LastDraft modals for DraftJS",
   "repository": {
     "type": "git",
@@ -34,6 +34,6 @@
   "dependencies": {
     "draft-js-emoji-picker-plugin": "1.2.0",
     "draft-js-color-picker-plugin": "1.2.0",
-    "@whisperlab/draft-js-gif-picker-plugin": "1.2.2"
+    "@whisperlab/draft-js-gif-picker-plugin": "1.2.3"
   }
 }

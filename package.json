@@ -15,12 +15,6 @@
     "type": "git",
     "url": "https://github.com/whisperlab/last-draft-js-plugins.git"
   },
-  "authors": [
-    "Benjamin Kniffler <benjamin@kniffler.com> (https://github.com/bkniffler)",
-    "Nik Graf <nik@nikgraf.com> (http://www.nikgraf.com)",
-    "Steven Iseki <stevenisekimartin@gmail.com> (https://github.com/StevenIseki)",
-    "Marcelo Jorge Vieira <metal@alucinados.com> (https://github.com/marcelometal)"
-  ],
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.7.6",

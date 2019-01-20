@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@whisperlab/draft-js-gif-picker-plugin@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/@whisperlab/draft-js-gif-picker-plugin/-/draft-js-gif-picker-plugin-1.2.1.tgz#640d4ed0ba11110dee7f33d65ccf7d7466bc1f05"
-  integrity sha512-iBIwTpXAnMLKUHuVjUTZO2w+eQA7l7Bhg2faqIF7flPDoMtEU6PiYr9zQP5KY1ueDyAtRFBebKm8nOjdLTqhaA==
+"@whisperlab/draft-js-gif-picker-plugin@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-gif-picker-plugin/-/draft-js-gif-picker-plugin-1.2.2.tgz#0482839c1207ceb418995571833ff2ad0c59e83b"
+  integrity sha512-jU1f3tgj+4UDCnQq+wWJcimnakd0GgbCvM01gT57s45VmmoWPAQM5jbm6cKcjYe42XCCfKUrzftpyyPuHAuHVQ==
 
-"@whisperlab/draft-js-modal-plugin@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/@whisperlab/draft-js-modal-plugin/-/draft-js-modal-plugin-1.2.0.tgz#77d711077cc2edb13b59f7fe98ccd4bd8a87cb65"
-  integrity sha512-6LW0MywMvU1PAdBuHE7OvFqnLBB1j8FyNDAweANghngSBDa0ngqYv0HsaszJl//2ZugMcAAJ2DRStTQTsEQO3Q==
+"@whisperlab/draft-js-modal-plugin@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-modal-plugin/-/draft-js-modal-plugin-1.2.2.tgz#f835741b34489b624bf79514c08934d462d092b3"
+  integrity sha512-bdzdwxtJ5Yatt/AucGVGasJcOP8dLP3QudvloPrtg+asCxebbBN/wAbi6JptYMJEwIKWCrCsMioB5Dxol3m5fA==
   dependencies:
-    "@whisperlab/draft-js-gif-picker-plugin" "1.2.1"
+    "@whisperlab/draft-js-gif-picker-plugin" "1.2.2"
     draft-js-color-picker-plugin "1.2.0"
     draft-js-emoji-picker-plugin "1.2.0"
 

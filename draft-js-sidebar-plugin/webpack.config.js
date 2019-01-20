@@ -26,5 +26,10 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin("./plugin.css"),
-  ]
+  ],
+  externals: {
+    'draft-js': 'draft-js',
+    react: 'react',
+    'react-dom': 'react-dom'
+  }
 }

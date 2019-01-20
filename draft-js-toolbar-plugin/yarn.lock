@@ -2,6 +2,20 @@
 # yarn lockfile v1
 
 
+"@whisperlab/draft-js-gif-picker-plugin@1.2.1":
+  version "1.2.1"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-gif-picker-plugin/-/draft-js-gif-picker-plugin-1.2.1.tgz#640d4ed0ba11110dee7f33d65ccf7d7466bc1f05"
+  integrity sha512-iBIwTpXAnMLKUHuVjUTZO2w+eQA7l7Bhg2faqIF7flPDoMtEU6PiYr9zQP5KY1ueDyAtRFBebKm8nOjdLTqhaA==
+
+"@whisperlab/draft-js-modal-plugin@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-modal-plugin/-/draft-js-modal-plugin-1.2.0.tgz#77d711077cc2edb13b59f7fe98ccd4bd8a87cb65"
+  integrity sha512-6LW0MywMvU1PAdBuHE7OvFqnLBB1j8FyNDAweANghngSBDa0ngqYv0HsaszJl//2ZugMcAAJ2DRStTQTsEQO3Q==
+  dependencies:
+    "@whisperlab/draft-js-gif-picker-plugin" "1.2.1"
+    draft-js-color-picker-plugin "1.2.0"
+    draft-js-emoji-picker-plugin "1.2.0"
+
 abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
@@ -1444,18 +1458,6 @@ draft-js-color-picker-plugin@1.2.0:
 draft-js-emoji-picker-plugin@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/draft-js-emoji-picker-plugin/-/draft-js-emoji-picker-plugin-1.2.0.tgz#c5fe3b1ddcfed9218c4fffec576d6e4b95fda4c4"
-
-draft-js-gif-picker-plugin@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/draft-js-gif-picker-plugin/-/draft-js-gif-picker-plugin-1.2.0.tgz#fba8502840c6f5d2aadf45ba76e9e9da8824c064"
-
-draft-js-modal-plugin@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/draft-js-modal-plugin/-/draft-js-modal-plugin-1.2.0.tgz#d4c0bcae45037eb9809c5d37958c9945014edc0c"
-  dependencies:
-    draft-js-color-picker-plugin "1.2.0"
-    draft-js-emoji-picker-plugin "1.2.0"
-    draft-js-gif-picker-plugin "1.2.0"
 
 draft-js@0.10.1:
   version "0.10.1"

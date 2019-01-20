@@ -1,6 +1,7 @@
 /* eslint no-undef: 0 */
 
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import 'whatwg-fetch'
 
 export default class extends Component {
@@ -18,8 +19,8 @@ export default class extends Component {
 
   static get propTypes () {
     return {
-      onSelected: React.PropTypes.func.isRequired,
-      visible: React.PropTypes.bool
+      onSelected: PropTypes.func.isRequired,
+      visible: PropTypes.bool
     }
   }
 

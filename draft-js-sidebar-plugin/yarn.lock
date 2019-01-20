@@ -2,19 +2,24 @@
 # yarn lockfile v1
 
 
+"@whisperlab/draft-js-emoji-picker-plugin@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-emoji-picker-plugin/-/draft-js-emoji-picker-plugin-1.2.0.tgz#cbe3ec20c31cb1cc2f3f7910f843c8fa73157179"
+  integrity sha512-FEANdGevk7M0BEC8WM+sKJxvxIrFqJ9V1KCerlN8DVzuWiFyEdteFZm4q+/8WNE1IWyY6jwFyVKKM+OlFeFFMQ==
+
 "@whisperlab/draft-js-gif-picker-plugin@1.2.3":
   version "1.2.3"
   resolved "https://registry.npmjs.org/@whisperlab/draft-js-gif-picker-plugin/-/draft-js-gif-picker-plugin-1.2.3.tgz#f0a24025ec3801c8a4d353600a5a15b70ab5cc21"
   integrity sha512-R0QvYTecOY7RC5RRaTdm70Zkr+J5IZHH46yxK57vw9LARttYJWv+7paKw3wm6nCqlYcUuA6DGdvtlV9NP5Dxew==
 
-"@whisperlab/draft-js-modal-plugin@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.npmjs.org/@whisperlab/draft-js-modal-plugin/-/draft-js-modal-plugin-1.2.3.tgz#bf1903ac05f8e5fe651bcd1a9598fb7b25ae5fcf"
-  integrity sha512-7KI82KZUnECPK9DC/i066aeuohnq3eW7JN0coO6ZC67yKflPzhS/rma3Us48GXnxc0efMEXyDDyB43DutXwiXQ==
+"@whisperlab/draft-js-modal-plugin@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-modal-plugin/-/draft-js-modal-plugin-1.2.4.tgz#6e1bee3d6f1beab9ed3b033521a47117c2cc9623"
+  integrity sha512-cDluIKPCXIPmE2QKhTaUkK0fbiqsJdRcC4Vm+kmeFE2x/4GuGevtHKAXcbXQ+iebAAtmCGGCoxF4uqHsE+oV/Q==
   dependencies:
+    "@whisperlab/draft-js-emoji-picker-plugin" "1.2.0"
     "@whisperlab/draft-js-gif-picker-plugin" "1.2.3"
     draft-js-color-picker-plugin "1.2.0"
-    draft-js-emoji-picker-plugin "1.2.0"
 
 abbrev@1:
   version "1.1.0"
@@ -1454,10 +1459,6 @@ draft-js-buttons@^2.0.0-rc2:
 draft-js-color-picker-plugin@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/draft-js-color-picker-plugin/-/draft-js-color-picker-plugin-1.2.0.tgz#f46dffb2e1df787accb35066c9e31c6a191d88fe"
-
-draft-js-emoji-picker-plugin@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/draft-js-emoji-picker-plugin/-/draft-js-emoji-picker-plugin-1.2.0.tgz#c5fe3b1ddcfed9218c4fffec576d6e4b95fda4c4"
 
 draft-js@0.10.1:
   version "0.10.1"

@@ -34,6 +34,6 @@
   "dependencies": {
     "draft-js-emoji-picker-plugin": "1.2.0",
     "draft-js-color-picker-plugin": "1.2.0",
-    "draft-js-gif-picker-plugin": "1.2.0"
+    "@whisperlab/draft-js-gif-picker-plugin": "1.2.1"
   }
 }

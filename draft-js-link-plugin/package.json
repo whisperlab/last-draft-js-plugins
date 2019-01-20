@@ -1,6 +1,6 @@
 {
   "name": "@whisperlab/draft-js-link-plugin",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "LastDraft Link Plugin for DraftJS",
   "repository": {
     "type": "git",

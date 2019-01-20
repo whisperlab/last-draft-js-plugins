@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Picker from 'draft-js-emoji-picker-plugin'
+import Picker from '@whisperlab/draft-js-emoji-picker-plugin'
 
 import { Modifier, EditorState } from 'draft-js'
 

@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@whisperlab/draft-js-emoji-picker-plugin@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-emoji-picker-plugin/-/draft-js-emoji-picker-plugin-1.2.0.tgz#cbe3ec20c31cb1cc2f3f7910f843c8fa73157179"
+  integrity sha512-FEANdGevk7M0BEC8WM+sKJxvxIrFqJ9V1KCerlN8DVzuWiFyEdteFZm4q+/8WNE1IWyY6jwFyVKKM+OlFeFFMQ==
+
 "@whisperlab/draft-js-gif-picker-plugin@1.2.3":
   version "1.2.3"
   resolved "https://registry.npmjs.org/@whisperlab/draft-js-gif-picker-plugin/-/draft-js-gif-picker-plugin-1.2.3.tgz#f0a24025ec3801c8a4d353600a5a15b70ab5cc21"
@@ -18,10 +23,6 @@ core-js@^1.0.0:
 draft-js-color-picker-plugin@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/draft-js-color-picker-plugin/-/draft-js-color-picker-plugin-1.2.0.tgz#f46dffb2e1df787accb35066c9e31c6a191d88fe"
-
-draft-js-emoji-picker-plugin@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/draft-js-emoji-picker-plugin/-/draft-js-emoji-picker-plugin-1.2.0.tgz#c5fe3b1ddcfed9218c4fffec576d6e4b95fda4c4"
 
 draft-js@0.10.1:
   version "0.10.1"

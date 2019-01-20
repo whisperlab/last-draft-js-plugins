@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@whisperlab/draft-js-gif-picker-plugin@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/@whisperlab/draft-js-gif-picker-plugin/-/draft-js-gif-picker-plugin-1.2.1.tgz#640d4ed0ba11110dee7f33d65ccf7d7466bc1f05"
-  integrity sha512-iBIwTpXAnMLKUHuVjUTZO2w+eQA7l7Bhg2faqIF7flPDoMtEU6PiYr9zQP5KY1ueDyAtRFBebKm8nOjdLTqhaA==
+"@whisperlab/draft-js-gif-picker-plugin@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-gif-picker-plugin/-/draft-js-gif-picker-plugin-1.2.2.tgz#0482839c1207ceb418995571833ff2ad0c59e83b"
+  integrity sha512-jU1f3tgj+4UDCnQq+wWJcimnakd0GgbCvM01gT57s45VmmoWPAQM5jbm6cKcjYe42XCCfKUrzftpyyPuHAuHVQ==
 
 asap@~2.0.3:
   version "2.0.5"

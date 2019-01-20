@@ -24,11 +24,13 @@
   "license": "MIT",
   "devDependencies": {
     "draft-js": "0.10.1",
+    "prop-types": "^15.6.2",
     "react": "15.5.0",
     "react-dom": "15.5.0"
   },
   "peerDependencies": {
     "draft-js": "0.10.1",
+    "prop-types": "^15.6.2",
     "react": "15.5.0",
     "react-dom": "15.5.0"
   }

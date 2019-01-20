@@ -1,5 +1,5 @@
 {
-  "name": "last-draft-js-toolbar-plugin",
+  "name": "@whisperlab/last-draft-js-toolbar-plugin",
   "version": "1.2.0",
   "description": "LastDraft Toolbar Plugin for DraftJS",
   "authors": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vacenz/last-draft-js-plugins.git"
+    "url": "https://github.com/whisperlab/last-draft-js-plugins.git"
   },
   "main": "lib/index.js",
   "keywords": [

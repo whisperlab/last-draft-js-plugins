@@ -10,6 +10,7 @@ export default class Embed extends Component {
     // leveraging destructuring to omit certain properties from props
     const {
       blockProps, // eslint-disable-line no-unused-vars
+      blockStyleFn, // eslint-disable-line no-unused-vars
       customStyleMap, // eslint-disable-line no-unused-vars
       customStyleFn, // eslint-disable-line no-unused-vars
       decorator, // eslint-disable-line no-unused-vars

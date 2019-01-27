@@ -1,6 +1,6 @@
 {
   "name": "@whisperlab/draft-js-embed-plugin",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "LastDraft embed Plugin for DraftJS",
   "repository": {
     "type": "git",

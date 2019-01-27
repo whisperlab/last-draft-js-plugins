@@ -17,7 +17,7 @@ export default (config = {}) => {
       if (block.getType() === 'atomic') {
         const contentState = getEditorState().getCurrentContent()
         const entity = block.getEntityAt(0)
-        if (entity) {
+        if (!entity) {
           return null
         }
         const type = contentState.getEntity(entity).getType()

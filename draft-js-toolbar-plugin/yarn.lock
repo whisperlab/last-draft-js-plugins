@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@whisperlab/draft-js-buttons-plugin@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/@whisperlab/draft-js-buttons-plugin/-/draft-js-buttons-plugin-1.3.0.tgz#03b9ab435e62ec81855f3221b5937e85cd205832"
-  integrity sha512-UCMGD1EcqnNES6dr9w9lnWi8nLpA5hCcuHDzsXLsweFMJ1WDbiq5V1pAaQcuVJaCDQ2cranHhgzMZWeKV2N8vg==
+"@whisperlab/draft-js-buttons-plugin@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-buttons-plugin/-/draft-js-buttons-plugin-1.3.1.tgz#e61f0e68667467d3fa1201da173985432139729c"
+  integrity sha512-/DWBV9aQc05Fx0g8+EURxM0EkFon3FUdm0cW69B9KpfkxLyuX3b7S3CDPhB4iAwX0QEZlBOzUVpscjWFy7h/6Q==
 
 "@whisperlab/draft-js-emoji-picker-plugin@1.2.0":
   version "1.2.0"

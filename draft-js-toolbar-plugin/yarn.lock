@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@whisperlab/draft-js-buttons-plugin@1.3.0":
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/@whisperlab/draft-js-buttons-plugin/-/draft-js-buttons-plugin-1.3.0.tgz#03b9ab435e62ec81855f3221b5937e85cd205832"
+  integrity sha512-UCMGD1EcqnNES6dr9w9lnWi8nLpA5hCcuHDzsXLsweFMJ1WDbiq5V1pAaQcuVJaCDQ2cranHhgzMZWeKV2N8vg==
+
 "@whisperlab/draft-js-emoji-picker-plugin@1.2.0":
   version "1.2.0"
   resolved "https://registry.npmjs.org/@whisperlab/draft-js-emoji-picker-plugin/-/draft-js-emoji-picker-plugin-1.2.0.tgz#cbe3ec20c31cb1cc2f3f7910f843c8fa73157179"
@@ -1445,10 +1450,6 @@ diffie-hellman@^5.0.0:
 domain-browser@^1.1.1:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.1.7.tgz#867aa4b093faa05f1de08c06f4d7b21fdf8698bc"
-
-draft-js-buttons-plugin@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/draft-js-buttons-plugin/-/draft-js-buttons-plugin-1.2.0.tgz#fc0a5391c1dd609a02e999ea88ee8d1026053867"
 
 draft-js-buttons@^2.0.0-rc2:
   version "2.0.0-rc2"

@@ -12,7 +12,7 @@ import {
 import {
   AddLinkButton,
   AddColorButton
-} from 'draft-js-buttons-plugin'
+} from '@whisperlab/draft-js-buttons-plugin'
 
 import createStore from './utils/createStore'
 import Toolbar from './components/Toolbar'

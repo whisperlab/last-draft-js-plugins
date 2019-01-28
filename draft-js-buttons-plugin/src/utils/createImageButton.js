@@ -10,9 +10,17 @@ export default ({ children }) => (
       ReactDOM.findDOMNode(this.refs.fileInput).click()
     }
 
-    inputChange (e) {
-      const file = e.target.files[0]
-      const src = window.URL.createObjectURL(file)
+    inputChange = async (e) => {
+      let src = null
+      if (this.props.onUpload) {
+        src = await this.props.onUpload({
+          files: e.target.files,
+        })
+      } else {
+        const file = e.target.files[0]
+        src = window.URL.createObjectURL(file)
+      }
+      if (!src) { return }
       const imageData = {src: src, type: 'placeholder'}
       this.props.setEditorState(insertDataBlock(this.props.getEditorState(), imageData, 'image'))
     }

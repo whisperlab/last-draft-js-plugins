@@ -20,6 +20,7 @@ export default ({ children }) => (
         const file = e.target.files[0]
         src = window.URL.createObjectURL(file)
       }
+      e.target.value = null
       if (!src) { return }
       const imageData = {src: src, type: 'placeholder'}
       this.props.setEditorState(insertDataBlock(this.props.getEditorState(), imageData, 'image'))

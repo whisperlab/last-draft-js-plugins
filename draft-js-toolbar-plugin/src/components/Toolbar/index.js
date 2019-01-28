@@ -70,6 +70,7 @@ export default class Toolbar extends React.Component {
             <Modal
               getEditorState={store.getItem('getEditorState')}
               setEditorState={store.getItem('setEditorState')}
+              getEditorRef={store.getItem('getEditorRef')}
               theme={theme}
               closeModal={::this.closeModal}
               openModal={::this.openModal} />
@@ -82,6 +83,7 @@ export default class Toolbar extends React.Component {
                 theme={theme.buttonStyles}
                 getEditorState={store.getItem('getEditorState')}
                 setEditorState={store.getItem('setEditorState')}
+                getEditorRef={store.getItem('getEditorRef')}
                 addLink={store.getItem('addLink')}
                 closeModal={::this.closeModal}
                 openModal={::this.openModal} />

@@ -68,6 +68,7 @@ export default class Sidebar extends React.Component {
           <Modal
             getEditorState={store.getItem('getEditorState')}
             setEditorState={store.getItem('setEditorState')}
+            getEditorRef={store.getItem('getEditorRef')}
             theme={theme}
             closeModal={::this.closeModal}
             openModal={::this.openModal} />
@@ -78,6 +79,7 @@ export default class Sidebar extends React.Component {
             key={index}
             getEditorState={store.getItem('getEditorState')}
             setEditorState={store.getItem('setEditorState')}
+            getEditorRef={store.getItem('getEditorRef')}
             theme={theme}
             store={store}
             closeModal={::this.closeModal}

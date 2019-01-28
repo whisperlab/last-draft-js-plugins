@@ -26,6 +26,10 @@ export default ({ children }) => (
       this.props.setEditorState(insertDataBlock(this.props.getEditorState(), imageData, 'image'))
     }
 
+    inputClick = (e) => {
+      e.target.value = null
+    }
+
     preventBubblingUp = (event) => { event.preventDefault() }
 
     render () {
@@ -46,7 +50,8 @@ export default ({ children }) => (
             <input
               type='file'
               ref='fileInput'
-              onChange={::this.inputChange}
+              onChange={this.inputChange}
+              onClick={this.inputClick}
               style={{ display: 'none' }} />
           </div>
         </div>
